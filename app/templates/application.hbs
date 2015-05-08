@@ -1,0 +1,11 @@
+<div class='canvas'>
+<canvas id="c3" width="800" height="600">
+</canvas>
+</div>
+
+<button {{action "calcmatrix"}} >matrix</button>
+{{matrix-view matrix = matrix name="from canvas"}}
+<hr>
+{{matrix-view matrix=matrix2 name="source"}}
+{{matrix-view matrix=matrix3 name="target"}}
+{{matrix-view matrix=matrix4 name="calculated"}}

@@ -1,0 +1,33 @@
+
+div.canvas {
+    position: relative;
+    width: 800px;
+    height: 600px;
+    border: thin solid blue;
+    overflow: hidden;
+
+}
+canvas {
+    position: absolute;
+    display: inline-block;
+    left:0px;
+    top:0px;
+    transform-origin: 0px 0px;
+    transform:  translate(-50px,-100px) scale(3,2.0) ;
+
+    border: thin solid black;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+div.table {
+    display: inline-block;
+}
+
+td {
+    font-size: small;
+    width: 60px;
+    border: thin solid silver;
+}
